@@ -111,14 +111,10 @@ This works on System Software version 2.10-3.74. This might work on System Softw
 ### About Memory Card files extraction
 
 A less simple way to dump files from PS Vita is to use the write access provided by the mailfail trick to dump the files to the PS Vita memory card or user internal storage:
-A) To ux0:pspemu/PSP/SAVEDATA/
-https://wololo.net/talk/viewtopic.php?f=65&t=44935
-B) To ux0 music mail.db. Less simple but can dump files without size limitation other than ux0 available space.
-https://wololo.net/2016/01/08/ps-vita-dumping-files-without-limitation/
-https://wololo.net/talk/viewtopic.php?p=404942#p404942
+* A) To ux0:pspemu/PSP/SAVEDATA/. See https://wololo.net/talk/viewtopic.php?f=65&t=44935
+* B) To ux0 music mail.db. Less simple but can dump files without size limitation other than ux0 available space. See https://wololo.net/2016/01/08/ps-vita-dumping-files-without-limitation/ or https://wololo.net/talk/viewtopic.php?p=404942#p404942.
 
-QCMA trick:
-https://hackinformer.com/2015/12/09/dumping-memory-card-ux0-without-using-pboot/
+QCMA trick: See https://hackinformer.com/2015/12/09/dumping-memory-card-ux0-without-using-pboot/.
 
 ### About URI calls
 - psns: URI works on System Software version 1.03-3.74 from web browser and on System Software version 2.10-3.74 from Email application.
