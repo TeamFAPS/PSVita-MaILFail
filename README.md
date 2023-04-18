@@ -4,6 +4,12 @@ by CelesteBlue
 
 A toolset to exploit the PS Vita MaILFail vulnerability. This allows arbitrary file read and write on the PS Vita storage devices.
 
+## Teaser
+
+![MaiLFail_file_dump](https://github.com/TeamFAPS/PSVita-MaILFail/blob/a4d37cd86a9b0f22991dd1be4a2263b8d2fd3b82/MaiLFail_file_dump.png)
+![os0_anchor](https://github.com/TeamFAPS/PSVita-MaILFail/blob/a4d37cd86a9b0f22991dd1be4a2263b8d2fd3b82/os0_anchor.png)
+![vs0_and_vs0_tarpatch_anchor](https://github.com/TeamFAPS/PSVita-MaILFail/blob/a4d37cd86a9b0f22991dd1be4a2263b8d2fd3b82/vs0_and_vs0_tarpatch_anchor.png)
+
 ## Tools
 
 ### mailfail-installer
@@ -11,6 +17,8 @@ A toolset to exploit the PS Vita MaILFail vulnerability. This allows arbitrary f
 The MaILFail installer is a PS Vita homebrew that injects a MaILFail file dumper HTML file into the Email application folder on the Memory Card.
 
 The MaILFail file dumper HTML file can be created either using mailfail-anchor-lister or mailfail-keyboard.
+
+Note that for injection into another PS Vita's Memory Card, you need to initialize the Email application on the target PS Vita then insert the Memory Card and run the installer application on the hacked PS Vita, and finally put the Memory Card back inside the target PS Vita.
 
 ### mailfail-anchor-lister
 
