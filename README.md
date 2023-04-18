@@ -2,7 +2,7 @@
 
 by CelesteBlue
 
-A toolset to exploit the PS Vita MaILFail vulnerability. This allows arbitrary file read and write on the PS Vita storage devices.
+A toolset to exploit the PS Vita MaILFail vulnerability, allowing arbitrary file read and write on the PS Vita storage.
 
 ## Teaser
 
@@ -152,3 +152,10 @@ On System Software version 3.74, sometimes error C2-14389-5 when sending an emai
 ### Other
 
 https://playstationdev.wiki/psvitadevwiki/index.php/FailMail
+
+## Credits
+
+* mr.gas and MajorTom for discovering the MaILFail vulnerability and exploiting it in many ways
+* SilicaAndPina for doing many tests and discovering even more tricks after mr.gas and MajorTom
+* CelesteBlue for summarizing the vulnerabilities, for writing tools to ease exploitation and to target more System Software versions
+* xyz for writing the base of the MaILFail installer application, which is the HENkaku offline installer
